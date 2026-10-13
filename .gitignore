@@ -1,0 +1,38 @@
+# Prerequisites and compiled binaries
+
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+
+# Build directories
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.cmake
+
+#Shared and static libraries
+*.a
+*.so
+*.dylib
+
+# Compiled user-space executables
+daq_daemon
+latency_benchmark
+
+# Editor and OS clutter
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Benchmark logs and intermediate CSVs
+benchmarks/results/*.csv
+benchmarks/results/*.png
